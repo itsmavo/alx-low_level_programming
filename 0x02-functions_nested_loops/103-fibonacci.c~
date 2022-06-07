@@ -1,0 +1,26 @@
+#include <stdio.h>
+/**
+ * main - fibonacci sequence up to 4,000,000
+ * Description : print sum of even fibonacci numbers up to 4,000,000
+ * Return: always 0
+ */
+int main(void)
+{
+  int count = 0;
+  long int a = 1;
+  long int b = a;
+  long int c = a + b;
+
+  while (c < 4000000)
+    {
+      if (c % 2 == 0
+	{
+	  counter += c;
+	}
+	a = b;
+	b = c;
+	c = a + b;
+    }
+      printf("%d\n", counter);
+      return (0);
+}
