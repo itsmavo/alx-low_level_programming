@@ -13,7 +13,9 @@ int main(void)
   float c = a + b;
 
   printf("%.0f", a);
+  printf(", ");
   printf("%.0f", b);
+  printf(", ");
   while(count < 98)
     {
       count++;
