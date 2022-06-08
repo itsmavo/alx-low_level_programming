@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- *print_to_98 - Counts natural numbers
- * n: An input int
+ * print_to_98 - Counts natural numbers
+ * @n: An input int
  * Description: function printing natural numbers n to 98
  * Return: int n
  */

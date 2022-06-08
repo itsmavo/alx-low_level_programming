@@ -9,12 +9,12 @@ int main(void)
   int count = 2;
 
   float a = 1;
-  float b = a + 1;
+  float b = a;
   float c = a + b;
 
   printf("%.0f", a);
   printf(", ");
-  printf("%.0f", b);
+  printf("%.0f",  b + a);
   printf(", ");
   while(count < 98)
     {

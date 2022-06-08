@@ -2,7 +2,7 @@
 
 /**
  *_islower - prints 1 or 0 depending on input
- *
+ * @c: first parameter
  * Description: prints lowercase letters
  * Return: Always 0
  */
