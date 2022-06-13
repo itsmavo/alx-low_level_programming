@@ -1,0 +1,22 @@
+#include "main.h"
+#include "2-strlen.c"
+/**
+ * puts_half - print second half of a string
+ * @str: char to loop through array
+ * Description: If odd, (length - 1) / 2
+ */
+void puts_half(char *str)
+{
+  int i;
+  int L = 0;
+
+  if (_strlen(str) % 2 != 0)
+    {
+      L += 1;
+    }
+  for (i = (_strlen(str) + L)/2; i < _strlen(str); i++)
+    {
+      _putchar(str[i]);
+    }
+  _putchar('\n');
+}
