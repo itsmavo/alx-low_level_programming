@@ -26,20 +26,20 @@ int _atoi(char *s)
 	  c++;
 	}
     }
-      while (c > 0)
-	{
-	  n += ((s[i - 1] - '0') * d);
-	  i--;
-	  c--;
-	  d *= 10;
-	}
-      if (pn >= 0)
-	{
-	  n *= 1;
-	}
-      else
-	{
-	  n *= -1;
-	}
-      return (n);
+  while (c > 0)
+    {
+      n += ((s[i - 1] - '0') * d);
+      i--;
+      c--;
+      d *= 10;
+    }
+  if (pn >= 0)
+    {
+      n *= 1;
+    }
+  else
+    {
+      n *= -1;
+    }
+  return (n);
 }
