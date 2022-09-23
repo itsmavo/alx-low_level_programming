@@ -166,7 +166,7 @@ void shash_table_print(const shash_table_t *ht)
   printf("{");
   while (hdr)
     {
-      printf("'%s' : '%s'", hdr->key, hdr->value);
+      printf("'%s': '%s'", hdr->key, hdr->value);
       if (hdr != ht->stail)
 	printf(", ");
       hdr = hdr->snext;
@@ -187,7 +187,7 @@ void shash_table_print_rev(const shash_table_t *ht)
   printf("{");
   while(tlr)
     {
-      printf("'%s' : '%s'", tlr->key, tlr->value);
+      printf("'%s': '%s'", tlr->key, tlr->value);
       if(tlr != ht->shead)
 	printf(", ");
       tlr = tlr->sprev;
